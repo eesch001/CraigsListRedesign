@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>craigslist: LA County</title>
+
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Scripts -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/peacesigntwo.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+
+<body>
+  <header>
+    <section id="navbar">
+      <div class="topnav-container">
+        <a href="#community">Community</a>
+        <a href="#services">Services</a>
+        <a href="#discussionforums">Discussion Forums</a>
+        <a href="#housing">Housing</a>
+        <a href="#forsale">For Sale</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#gigs">Gigs</a>
+        <a href="#resume">Resumes</a>
+
+      </div>
+    </section>
+
+
+    <nav class="sidebar">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+          </svg>
+        </a>
+      </span>
+      <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <form action="" method="post">
+        <input class="search" id="craigsearch" type="text" value="" action="" placeholder="search craigslist">
+        <a href="https://www.craigslist.org/about/sites" target="_blank">Craigslist</a>
+      </form>
+        <a href="https://post.craigslist.org/k/lj150s-X6hGUjsJ22B9TaQ/pKFzr?s=subarea" target="_blank">Create a posting</a>
+        <a href="https://accounts.craigslist.org/login?rt=L&rp=%2Flogin%2Fhome" target="_blank">My Account</a>
+
+
+        <a class="event" href="https://losangeles.craigslist.org/search/eee?sale_date=2020-05-16" target="_blank">event calender</a>
+
+
+        <a href="https://www.craigslist.org/about/help/" target="_blank">help, faq, abuse, legal</a>
+        <a href="https://www.craigslist.org/about/scams" target="_blank">avoid scams & fraud</a>
+        <a href="https://www.craigslist.org/about/safety" target="_blank">personal safety tips</a>
+        <a href="https://www.craigslist.org/about/terms.of.use.en-us" target="_blank">terms of use</a>
+        <a href="https://www.craigslist.org/about/privacy.policy" target="_blank">privacy policy</a>
+        <a href="https://www.craigslist.org/about/help/system-status" target="_blank">system status</a>
+
+
+        <a href="https://www.craigslist.org/about/" target="_blank">about craigslist</a>
+        <a href="https://www.craigslist.org/about/craigslist_is_hiring" target="_blank">craigslist is hiring in sf</a>
+        <a href="https://www.craigslist.org/about/open_source" target="_blank">craiglist opensource</a>
+        <a href="http://blog.craigslist.org/" target="_blank">craiglist blog</a>
+        <a href="https://www.craigslist.org/about/best/all/" target="_blank">best-of-craigslist</a>
+        <a href="https://www.youtube.com/user/craigslist" target="_blank">craigslist TV</a>
+        <a href="http://www.craigslistjoe.com/" target="_blank">"craigslist joe"</a>
+        <a class="leftsidealign" href="https://craignewmarkphilanthropies.org/" target="_blank">craig newmark philanthropies</a>
+      </div>
+    </nav>
+
+
+    <nav class="sidebar2">
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu2()">
+          <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+          </svg>
+        </a>
+      </span>
+      <div id="side-menu2" class="side-nav2">
+        <a href="#" class="btn-close2" onclick="closeSlideMenu2()">&times;</a>
+        <div id="rightbar">
+
+          <h3 class="locationheader">Other Craigslist locations</h3>
+          <div class="navright">
+            <input type="checkbox" id="menu" />
+            <label for="menu" id="nav-icon">&#9776;</label>
+
+
+            <div class="multi-level">
+              <div class="item">
+                <input type="checkbox" id="A" />
+                <img src="Arrow.png" class="arrow"><label for="A">nearby cl</label>
+
+                <ul>
+                  <li ><a href="https://bakersfield.craigslist.org/" target="_blank">bakersfield</a>
+                  </li>
+                  <li ><a href="https://chico.craigslist.org/" target="_blank">chico</a>
+                  </li>
+                  <li ><a href="https://flagstaff.craigslist.org/" target="_blank">flagstaff</a>
+                  </li>
+                  <li ><a href="https://fresno.craigslist.org/" target="_blank">fresno</a>
+                  </li>
+                  <li ><a href="https://goldcountry.craigslist.org/" target="_blank">gold country</a>
+                  </li>
+                  <li ><a href="https://hanford.craigslist.org/" target="_blank">hanford</a>
+                  </li>
+                  <li ><a href="https://imperial.craigslist.org/" target="_blank">imperial co</a>
+                  </li>
+                  <li ><a href="https://inlandempire.craigslist.org/" target="_blank">inland empire</a>
+                  </li>
+                  <li ><a href="https://lasvegas.craigslist.org/" target="_blank">las vegas</a>
+                  </li>
+                  <li ><a href="https://merced.craigslist.org/" target="_blank">merced</a>
+                  </li>
+                  <li ><a href="https://modesto.craigslist.org/" target="_blank">modesto</a>
+                  </li>
+                  <li ><a href="https://mohave.craigslist.org/" target="_blank">mohave co</a>
+                  </li>
+                  <li ><a href="https://monterey.craigslist.org/" target="_blank">monterey</a>
+                  </li>
+                  <li ><a href="https://orangecounty.craigslist.org/" target="_blank">orange co</a>
+                  </li>
+                  <li ><a href="https://palmsprings.craigslist.org/" target="_blank">palm springs</a>
+                  </li>
+                  <li ><a href="https://phoenix.craigslist.org/" target="_blank">phoenix</a>
+                  </li>
+                  <li ><a href="https://prescott.craigslist.org/" target="_blank">prescott</a>
+                  </li>
+                  <li ><a href="https://reno.craigslist.org/" target="_blank">reno</a>
+                  </li>
+                  <li ><a href="https://sacramento.craigslist.org/" target="_blank">sacramento</a>
+                  </li>
+                  <li ><a href="https://sandiego.craigslist.org/" target="_blank">san diego</a>
+                  </li>
+                  <li ><a href="https://slo.craigslist.org/" target="_blank">san luis obispo</a>
+                  </li>
+                  <li ><a href="https://santabarbara.craigslist.org/" target="_blank">santa barbara</a>
+                  </li>
+                  <li ><a href="https://santamaria.craigslist.org/" target="_blank">santa maria</a>
+                  </li>
+                  <li ><a href="https://sfbay.craigslist.org/" target="_blank">sf bay area</a>
+                  </li>
+                  <li ><a href="https://stgeorge.craigslist.org/" target="_blank">st george</a>
+                  </li>
+                  <li ><a href="https://stockton.craigslist.org/" target="_blank">stockton</a>
+                  </li>
+                  <li ><a href="https://ventura.craigslist.org/" target="_blank">ventura</a>
+                  </li>
+                  <li ><a href="https://visalia.craigslist.org/" target="_blank">visalia-tulare</a>
+                  </li>
+                  <li ><a href="https://yubasutter.craigslist.org/" target="_blank">yuba-sutter</a>
+                  </li>
+                  <li ><a href="https://yuma.craigslist.org/" target="_blank">yuma</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item">
+                <input type="checkbox" id="B" />
+                <img src="Arrow.png" class="arrow"><label for="B">us cities</label>
+
+                <ul>
+                  <li ><a href="http://atlanta.craigslist.org/" target="_blank">atlanta</a>
+                  </li>
+                  <li ><a href="http://austin.craigslist.org/" target="_blank">austin</a>
+                  </li>
+                  <li ><a href="http://boston.craigslist.org/" target="_blank">boston</a>
+                  </li>
+                  <li ><a href="http://chicago.craigslist.org/" target="_blank">chicago</a>
+                  </li>
+                  <li ><a href="http://dallas.craigslist.org/" target="_blank">dallas</a>
+                  </li>
+                  <li ><a href="http://denver.craigslist.org/" target="_blank">denver</a>
+                  </li>
+                  <li ><a href="http://detroit.craigslist.org/" target="_blank">detroit</a>
+                  </li>
+                  <li ><a href="http://houston.craigslist.org/" target="_blank">houston</a>
+                  </li>
+                  <li ><a href="http://lasvegas.craigslist.org/" target="_blank">las&nbsp;vegas</a>
+                  </li>
+                  <li ><a href="http://losangeles.craigslist.org/" target="_blank">los&nbsp;angeles</a>
+                  </li>
+                  <li ><a href="http://miami.craigslist.org/" target="_blank">miami</a>
+                  </li>
+                  <li ><a href="http://minneapolis.craigslist.org/" target="_blank">minneapolis</a>
+                  </li>
+                  <li ><a href="http://newyork.craigslist.org/" target="_blank">new&nbsp;york</a>
+                  </li>
+                  <li ><a href="http://orangecounty.craigslist.org/" target="_blank">orange&nbsp;co</a>
+                  </li>
+                  <li ><a href="http://philadelphia.craigslist.org/" target="_blank">philadelphia</a>
+                  </li>
+                  <li ><a href="http://phoenix.craigslist.org/" target="_blank">phoenix</a>
+                  </li>
+                  <li ><a href="http://portland.craigslist.org/" target="_blank">portland</a>
+                  </li>
+                  <li ><a href="http://raleigh.craigslist.org/" target="_blank">raleigh</a>
+                  </li>
+                  <li ><a href="http://sacramento.craigslist.org/" target="_blank">sacramento</a>
+                  </li>
+                  <li ><a href="http://sandiego.craigslist.org/" target="_blank">san&nbsp;diego</a>
+                  </li>
+                  <li ><a href="http://seattle.craigslist.org/" target="_blank">seattle</a>
+                  </li>
+                  <li ><a href="http://sfbay.craigslist.org/" target="_blank">sf&nbsp;bayarea</a>
+                  </li>
+                  <li ><a href="http://washingtondc.craigslist.org/" target="_blank">wash dc</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item">
+                <input type="checkbox" id="C" />
+                <img src="Arrow.png" class="arrow"><label for="C">us states</label>
+                <ul>
+                  <li ><a href="http://geo.craigslist.org/iso/us/al" target="_blank">alabama</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ak" target="_blank">alaska</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/az" target="_blank">arizona</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ar" target="_blank">arkansas</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ca" target="_blank">california</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/co" target="_blank">colorado</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ct" target="_blank">connecticut</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/dc" target="_blank">dc</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/de" target="_blank">delaware</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/fl" target="_blank">florida</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ga" target="_blank">georgia</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/gu" target="_blank">guam</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/hi" target="_blank">hawaii</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/id" target="_blank">idaho</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/il" target="_blank">illinois</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/in" target="_blank">indiana</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ia" target="_blank">iowa</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ks" target="_blank">kansas</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ky" target="_blank">kentucky</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/la" target="_blank">louisiana</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/me" target="_blank">maine</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/md" target="_blank">maryland</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ma" target="_blank">mass</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/mi" target="_blank">michigan</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/mn" target="_blank">minnesota</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ms" target="_blank">mississippi</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/mo" target="_blank">missouri</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/mt" target="_blank">montana</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/nc" target="_blank">n carolina</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ne" target="_blank">nebraska</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/nv" target="_blank">nevada</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/nj" target="_blank">new jersey</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/nm" target="_blank">new mexico</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ny" target="_blank">new york</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/nh" target="_blank">n hampshire</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/nd" target="_blank">north dakota</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/oh" target="_blank">ohio</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ok" target="_blank">oklahoma</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/or" target="_blank">oregon</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/pa" target="_blank">pennsylvania</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/pr" target="_blank">puerto rico</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ri" target="_blank">rhode island</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/sc" target="_blank">s carolina</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/sd" target="_blank">south dakota</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/tn" target="_blank">tennessee</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/tx" target="_blank">texas</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/ut" target="_blank">utah</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/vt" target="_blank">vermont</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/va" target="_blank">virginia</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/wa" target="_blank">washington</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/wv" target="_blank">west virginia</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/wi" target="_blank">wisconsin</a>
+                  </li>
+                  <li ><a href="http://geo.craigslist.org/iso/us/wy" target="_blank">wyoming</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="item">
+                <input type="checkbox" id="D" />
+                <img src="Arrow.png" class="arrow"><label for="D">canada</label>
+                <ul>
+                  <li ><a href="http://calgary.craigslist.org/" target="_blank">calgary</a>
+                  </li>
+                  <li ><a href="http://edmonton.craigslist.org/" target="_blank">edmonton</a>
+                  </li>
+                  <li ><a href="http://halifax.craigslist.org/" target="_blank">halifax</a>
+                  </li>
+                  <li ><a href="http://montreal.craigslist.org/" target="_blank">montreal</a>
+                  </li>
+                  <li ><a href="http://ottawa.craigslist.org/" target="_blank">ottawa</a>
+                  </li>
+                  <li ><a href="http://saskatoon.craigslist.org/" target="_blank">saskatoon</a>
+                  </li>
+                  <li ><a href="http://toronto.craigslist.org/" target="_blank">toronto</a>
+                  </li>
+                  <li ><a href="http://vancouver.craigslist.org/" target="_blank">vancouver</a>
+                  </li>
+                  <li ><a href="http://victoria.craigslist.org/" target="_blank">victoria</a>
+                  </li>
+                  <li ><a href="http://winnipeg.craigslist.org/" target="_blank">winnipeg</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="item">
+                <input type="checkbox" id="E" />
+                <img src="Arrow.png" class="arrow"><label class="clformat" for="E">cl worldwide</label>
+
+                <ul>
+
+                  <li>
+                    <div class="sub-item">
+                      <input type="checkbox" id="B-A" />
+                      <img src="Arrow.png" class="arrow"><label for="B-A">africa</label>
+                      <ul>
+                        <li ><a href="http://geo.craigslist.org/iso/eg" target="_blank">egypt</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/et" target="_blank">ethiopia</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/gh" target="_blank">ghana</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ke" target="_blank">kenya</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ma" target="_blank">morocco</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/za" target="_blank">south africa</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/tn" target="_blank">tunisia</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="sub-item">
+                      <input type="checkbox" id="B-B" />
+                      <img src="Arrow.png" class="arrow"><label for="B-B">americas</label>
+                      <ul>
+                        <li ><a href="http://geo.craigslist.org/iso/ar" target="_blank">argentina</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/bo" target="_blank">bolivia</a>
+                        </li>
+                        <li ><a href="http://rio.craigslist.org/" target="_blank">brazil</a>
+                        </li>
+                        <li ><a href="https://www.craigslist.org/about/sites#CA" target="_blank">canada</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/cl" target="_blank">chile</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/co" target="_blank">colombia</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/cr" target="_blank">costa rica</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/do" target="_blank">dom republic</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ec" target="_blank">ecuador</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/sv" target="_blank">el salvador</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/gt" target="_blank">guatemala</a>
+                        </li>
+                        <li ><a href="http://mexicocity.craigslist.org/" target="_blank">mexico</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ni" target="_blank">nicaragua</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/pa" target="_blank">panama</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/pe" target="_blank">peru</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/pr" target="_blank">puerto rico</a>
+                        </li>
+                        <li ><a href="https://www.craigslist.org/about/sites#US" target="_blank">united states</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/uy" target="_blank">uruguay</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/vi" target="_blank">us virgin islands</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ve" target="_blank">venezuela</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="sub-item">
+                      <input type="checkbox" id="B-C" />
+                      <img src="Arrow.png" class="arrow"><label for="B-C">asia</label>
+                      <ul>
+                        <li ><a href="http://geo.craigslist.org/iso/bd" target="_blank">bangladesh</a>
+                        </li>
+                        <li ><a href="http://shanghai.craigslist.org/" target="_blank">china</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/hk" target="_blank">hong kong</a>
+                        </li>
+                        <li ><a href="http://bangalore.craigslist.org/" target="_blank">india</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/id" target="_blank">indonesia</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ir" target="_blank">iran</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/iq" target="_blank">iraq</a>
+                        </li>
+                        <li ><a href="http://telaviv.craigslist.org/" target="_blank">israel</a>
+                        </li>
+                        <li ><a href="http://tokyo.craigslist.org/" target="_blank">japan</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/kw" target="_blank">kuwait</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/lb" target="_blank">lebanon</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/my" target="_blank">malaysia</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/pk" target="_blank">pakistan</a>
+                        </li>
+                        <li ><a href="http://manila.craigslist.org/" target="_blank">philippines</a>
+                        </li>
+                        <li ><a href="http://moscow.craigslist.org/" target="_blank">russia</a>
+                        </li>
+                        <li ><a href="http://singapore.craigslist.org/" target="_blank">singapore</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/kr" target="_blank">south korea</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/tw" target="_blank">taiwan</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/th" target="_blank">thailand</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/tr" target="_blank">turkey</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ae" target="_blank">uae</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/vn" target="_blank">vietnam</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ps" target="_blank">west bank</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="sub-item">
+                      <input type="checkbox" id="B-D" />
+                      <img src="Arrow.png" class="arrow"><label for="B-D">europe</label>
+                      <ul>
+                        <li ><a href="http://geo.craigslist.org/iso/at" target="_blank">austria</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/be" target="_blank">belgium</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/bg" target="_blank">bulgaria</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/hr" target="_blank">croatia</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/cz" target="_blank">czech republic</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/dk" target="_blank">denmark</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/fi" target="_blank">finland</a>
+                        </li>
+                        <li ><a href="http://paris.craigslist.org/" target="_blank">france</a>
+                        </li>
+                        <li ><a href="http://berlin.craigslist.org/" target="_blank">germany</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/gr" target="_blank">greece</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/hu" target="_blank">hungary</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/is" target="_blank">iceland</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ie" target="_blank">ireland</a>
+                        </li>
+                        <li ><a href="http://rome.craigslist.org/" target="_blank">italy</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/lu" target="_blank">luxembourg</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/nl" target="_blank">netherlands</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/no" target="_blank">norway</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/pl" target="_blank">poland</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/pt" target="_blank">portugal</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ro" target="_blank">romania</a>
+                        </li>
+                        <li ><a href="http://moscow.craigslist.org/" target="_blank">russia</a>
+                        </li>
+                        <li ><a href="http://madrid.craigslist.org/" target="_blank">spain</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/se" target="_blank">sweden</a>
+                        </li>
+                        <li ><a href="http://zurich.craigslist.org/" target="_blank">switzerland</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/tr" target="_blank">turkey</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ua" target="_blank">ukraine</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/gb" target="_blank">united kingdom</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="sub-item">
+                      <input type="checkbox" id="B-E" />
+                      <img src="images/Arrow.png" class="arrow"><label for="B-E">middle east</label>
+                      <ul>
+                        <li ><a href="http://geo.craigslist.org/iso/eg" target="_blank">egypt</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/iq" target="_blank">iraq</a>
+                        </li>
+                        <li ><a href="http://telaviv.craigslist.org/" target="_blank">israel</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/kw" target="_blank">kuwait</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/lb" target="_blank">lebanon</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/tr" target="_blank">turkey</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ae" target="_blank">uae</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/ps" target="_blank">west bank</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="sub-item">
+                      <input type="checkbox" id="B-F" />
+                      <img src="images/Arrow.png" class="arrow"><label for="B-F">oceania</label>
+                      <ul>
+                        <li ><a href="http://sydney.craigslist.org/" target="_blank">australia</a>
+                        </li>
+                        <li ><a href="http://geo.craigslist.org/iso/gu" target="_blank">guam</a>
+                        </li>
+                        <li ><a href="http://auckland.craigslist.org/" target="_blank">new zealand</a>
+                        </li>
+                        <li ><a href="http://manila.craigslist.org/" target="_blank">philippines</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                </ul>
+
+              </div>
+            </div>
+          </div>
+    </nav>
+
+
+
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark navtext">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navdiv" id="navbarToggleExternalContent">
+        <ul class="navbar-nav ml-auto navbartext sidetext">
+          <li class="nav-item">
+            <a class="nav-link" href="https://losangeles.craigslist.org/wst/" target="_blank">westside-southbay-310</a>
+          </li>
+          <li class="navcolor nav-item">
+            <a class="nav-link" href="https://losangeles.craigslist.org/sfv/" target="_blank">San Fernando Valley</a>
+          </li>
+          <li class="navcolor nav-item">
+            <a class="nav-link" href="https://losangeles.craigslist.org/lac/" target="_blank">Central LA 213/323</a>
+          </li>
+          <li class="navcolor nav-item">
+            <a class="nav-link" href="https://losangeles.craigslist.org/sgv/" target="_blank">San Gabriel Valley</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://losangeles.craigslist.org/lgb/" target="_blank">Long Beach/562</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://losangeles.craigslist.org/ant/" target="_blank">Antelope Valley</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <div>
+        <h1 id="main" class="Craigheader">Craigslist:<br> Los Angeles</h1>
+        <img class="laimage" src="images/LA.jpg">
+      </div>
+  </header>
+
+
+  <section id="community">
+    <div class="content">
+      <h1 class="communityheader"><a href="https://losangeles.craigslist.org/d/community/search/ccc" target="_blank">Community!</a></h1>
+      <p class="communitytext">Browse the vast community section of Craigslist! From volunteer opportunities to discussing politics, to even finding the perfect pet, there are so many things to explore in Cragislist's Community section.</p>
+
+
+      <div class="communitylink">
+
+        <ul class="firstlist">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/activity-partners/search/act" target="_blank">Activities</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/artists/search/ats" target="_blank">Artists</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/childcare/search/kid" target=_blank"">Childcare</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/classes/search/cls" target="_blank">Classes</a>
+          </li>
+        </ul>
+
+        <ul class="secondlist">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/events/search/eve" target="_blank">Events</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/general-community/search/com" target="_blank">General</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/groups/search/grp0" target="_blank">Groups</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/local-news-and-views/search/vnn" target="_blank">Local News</a>
+          </li>
+        </ul>
+
+
+        <ul class="thirdlist">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/lost-found/search/laf" target="_blank">Lost & Found</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/missed-connections/search/mis" target="_blank">Missed Connections</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/musicians/search/muc" target="_blank">Musicians</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/pets/search/pet" target="_blank">Pets</a>
+          </li>
+        </ul>
+
+        <ul class="fourthlist">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/politics/search/pol" target="_blank">Politics</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/rants-raves/search/rnr" target="_blank">Rants & Raves</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/rideshare/search/rid" target="_blank">Rideshare</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/volunteers/search/vol" target="_blank">Volunteers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="imageBox"></div>
+  </section>
+
+  <section id="services">
+    <div class="imageBoxservices"></div>
+    <div class="contentservices">
+      <h1 class="servicesheader"><a href="https://losangeles.craigslist.org/d/services/search/bbb" target="_blank">Services!</a></h1>
+      <p class="servicestext">Explore the various services offered on Craigslist. Take lessons and learn something new, get your lawn done, or even get a new hairstyle! Craigslist's Services truly offers a wide variety of
+        valued skills offered by your fellow Craigslist users. </p>
+      <div class="servicelink">
+
+        <ul class="firstlistservices">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/automotive-services/search/aos" target="_blank">Automotive</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/beauty-services/search/bts" target="_blank">Beauty</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/cell-phone-mobile-services/search/cms" target=_blank"">Cell/Mobile</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/computer-services/search/cps" target="_blank">Computer</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/creative-services/search/crs" target="_blank">Creative</a>
+          </li>
+        </ul>
+
+        <ul class="secondlistservices">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/cycle-services/search/cys" target="_blank">Cycle</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/event-services/search/evs" target="_blank">Event</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/farm-garden-services/search/fgs" target="_blank">Farm+Garden</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/financial-services/search/fns" target="_blank">Financial</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/household-services/search/hss" target="_blank">Household</a>
+          </li>
+        </ul>
+
+
+        <ul class="thirdlistservices">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/labor-hauling-moving/search/lbs" target="_blank">Labor/Move</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/legal-services/search/lgs" target="_blank">Legal</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/lessons-tutoring/search/lss" target="_blank">Lessons</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/marine-services/search/mas" target="_blank">Marine</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/pet-services/search/pas" target="_blank">Pet</a>
+          </li>
+        </ul>
+
+        <ul class="fourthlistservices">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/real-estate-services/search/rts" target="_blank">Real Estate</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/skilled-trade-services/search/sks" target="_blank">Skilled Trade</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/small-biz-ads/search/biz" target="_blank">SM Biz Ads</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/travel-vacation-services/search/trv" target="_blank">Travel/Vac</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/writing-editing-translation/search/wet" target="_blank">Write/Ed/Tran</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="discussionforums">
+    <div class="content">
+      <h2 class="discussionheader"><a href="https://forums.craigslist.org/?areaID=7" target="_blank">Discussion Forums!</a></h2>
+      <p class="discussiontext">Explore Craigslist's various discussion forums! Engage in lively conversations
+        with people from all walks of life.</p>
+
+      <div class="discussionlink">
+
+
+        <ul class="firstlistdiscussion">
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=5178" target="_blank">Android</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=3232" target="_blank">Apple</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=49" target="_blank">Arts</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=78" target="_blank">Atheist</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=5" target="_blank">Autos</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=88" target="_blank">Beauty</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=95" target="_blank">Bikes</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=47" target="_blank">Celebs</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=34" target="_blank">Comp</a>
+          </li>
+        </ul>
+
+        <ul class="secondlistdiscussion">
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=1564" target="_blank">Cosmos</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=122" target="_blank">Diet</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=76" target="_blank">Divorce</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=130" target="_blank">Dying</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=99" target="_blank">Eco</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=8" target="_blank">Feedbk</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=41" target="_blank">Film</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=64" target="_blank">Fixit</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=22" target="_blank">Food</a>
+          </li>
+        </ul>
+
+        <ul class="thirdlistdiscussion">
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=2007" target="_blank">Frugal</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=85" target="_blank">Gaming</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=54" target="_blank">Garden</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=575" target="_blank">Haiku</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=9" target="_blank">Help</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=81" target="_blank">History</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=6" target="_blank">Housing</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=7" target="_blank">Jobs</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=1257" target="_blank">Jokes</a>
+          </li>
+        </ul>
+
+        <ul class="fourthlistdiscussion">
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=73" target="_blank">Legal</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=1991" target="_blank">Linux</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=79" target="_blank">Manners</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=1926" target="_blank">Marriage</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=53" target="_blank">Money</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=24" target="_blank">Music</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=4" target="_blank">Open</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=16" target="_blank">Outdoor</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=39" target="_blank">Parent</a>
+          </li>
+        </ul>
+
+
+        <ul class="fifthlistdiscussion">
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=26" target="_blank">Pets</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=71" target="_blank">Philos</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=5500" target="_blank">Photo</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=20" target="_blank">Politics</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=29" target="_blank">Psych</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=12" target="_blank">Recover</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=59" target="_blank">Religion</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=28" target="_blank">Rofo</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=96" target="_blank">Science</a>
+          </li>
+        </ul>
+
+
+        <ul class="sixthlistdiscussion">
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=93" target="_blank">Spirit</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=32" target="_blank">Sports</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=2012" target="_blank">Super</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=1040" target="_blank">Tax</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=42" target="_blank">Travel</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=98" target="_blank">TV</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=2400" target="_blank">Vegan</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=7000" target="_blank">Words</a>
+          </li>
+          <li>
+            <a href="https://forums.craigslist.org/?areaID=7&amp;forumID=27" target="_blank">Writing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="imageBoxdiscussion"></div>
+  </section>
+
+
+
+
+
+
+  <section id="housing">
+    <div class="imageBoxhousing"></div>
+    <div class="contenthousing">
+      <h1 class="housingheader"><a href="https://losangeles.craigslist.org/d/housing/search/hhh" target="_blank">Housing!</a></h1>
+      <p class="housingtext">Searching for a new roommate, or maybe your next vacation spot? Craigslist's housing section contains
+        a wide variety of housing and rental options at great prices!</p>
+      <div class="housinglink">
+
+        <ul class="firstlisthousing">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/apts-housing-for-rent/search/apa" target="_blank">Apts/Housing</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/housing-swap/search/swp" target="_blank">Housing Swap</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/all-housing-wanted/search/hsw" target=_blank"">Housing Wanted</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/office-commercial/search/off" target="_blank">Office/Commercial</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/parking-storage/search/prk" target="_blank">Parking/Storage</a>
+          </li>
+        </ul>
+
+        <ul class="secondlisthousing">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/real-estate/search/rea" target="_blank">Real Estate for Sale</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/rooms-shares/search/roo" target="_blank">Rooms/Shared</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/wanted%3A-room-share/search/sha" target="_blank">Rooms Wanted</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/sublets-temporary/search/sub" target="_blank">Sublets/Temporary</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/vacation-rentals/search/vac" target="_blank">Vacation Rentals</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="forsale">
+    <div class="content">
+      <h2 class="forsaleheader"><a href="https://losangeles.craigslist.org/d/for-sale/search/sss" target="_blank">For Sale!</a></h2>
+      <p class="forsaletext">Looking to sell or buy something? Come take a look at Craigslist's exstensive For Sale section!</p>
+
+      <div class="forsalelink">
+        <ul class="firstlistforsale">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/antiques/search/ata" target="_blank">Antiques</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/appliances/search/ppa" target="_blank">Appliances</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/arts-crafts/search/ara" target="_blank">Arts+Crafts</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/atvs%2C-utvs%2C-snowmobiles/search/sna" target="_blank">ATV/UTV/Sno></a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/auto-parts/search/pta" target="_blank">Auto Parts</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/aviation/search/ava" target="_blank">Aviation</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/baby-kid-stuff/search/baa" target="_blank">Baby+Kid</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/barter/search/bar" target="_blank">Barter</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/health-and-beauty/search/haa" target="_blank">Beauty+Health</a>
+          </li>
+        </ul>
+
+        <ul class="secondlistforsale">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/bicycle-parts/search/bip" target="_blank">Bike Parts</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/bicycles/search/bia" target="_blank">Bikes</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/boat-parts-accessories/search/bpa" target="_blank">Boat Parts</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/boats/search/boo" target="_blank">Boats</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/books-magazines/search/bka" target="_blank">Books</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/business/search/bfa" target="_blank">Business</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/cars-trucks/search/cta" target="_blank">Cars+Trucks</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/cds-dvds-vhs/search/ema" target="_blank">CDs/DVD/VHS</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/cell-phones/search/moa" target="_blank">Cell Phones</a>
+          </li>
+        </ul>
+
+        <ul class="thirdlistforsale">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/clothing-accessories/search/cla" target="_blank">Clothes+ACC</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/collectibles/search/cba" target="_blank">Collectibles</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/computer-parts/search/syp" target="_blank">Computer Parts</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/computers/search/sya" target="_blank">Computers</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/electronics/search/ela" target="_blank">Electronics</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/farm-garden/search/gra" target="_blank">Farm+Garden</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/free-stuff/search/zip" target="_blank">Free</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/furniture/search/fua" target="_blank">Furniture</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/search/gms?sale_date=2020-05-23" target="_blank">Garage Sale</a>
+          </li>
+        </ul>
+
+        <ul class="fourthlistforsale">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/general-for-sale/search/foa" target="_blank">General</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/heavy-equipment/search/hva" target="_blank">Heavy Equip</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/household-items/search/hsa" target="_blank">Household</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/jewelry/search/jwa" target="_blank">Jewelry</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/materials/search/maa" target="_blank">Materials</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/motorcycle-parts-accessories/search/mpa" target="_blank">Motorcycle Parts</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/motorcycles-scooters/search/mca" target="_blank">Motorcycles</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/musical-instruments/search/msa" target="_blank">Music Instr</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/musical-instruments/search/msa" target="_blank">Photo+Video</a>
+          </li>
+        </ul>
+
+
+        <ul class="fifthlistforsale">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/recreational-vehicles/search/rva" target="_blank">RVS+Camp</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/sporting-goods/search/sga" target="_blank">Sporting</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/tickets/search/tia" target="_blank">Tickets</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/tools/search/tla" target="_blank">Tools</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/toys-games/search/taa" target="_blank">Toys+Games</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/trailers/search/tra" target="_blank">Trailers</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/video-gaming/search/vga" target="_blank">Video Gaming</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/wanted/search/waa" target="_blank">Wanted</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/auto-wheels-tires/search/wta" target="_blank">Wheels+Tires</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+    <div class="imageBoxforsale"></div>
+  </section>
+
+  <section id="jobs">
+    <div class="imageBoxjobs"></div>
+    <div class="contentjobs">
+      <h1 class="jobsheader"><a href="https://losangeles.craigslist.org/d/jobs/search/jjj" target="_blank">Jobs!</a></h1>
+      <p class="jobstext">Looking for a new job or a way to make extra money? Browse various job postings from Business to Web Design!</p>
+      <div class="jobslink">
+        <ul class="firstlistjobs">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/accounting-finance/search/acc" target="_blank">Accounting+Finance</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/admin-office/search/ofc" target="_blank">Admin/Office</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/architect-engineer-cad/search/egr" target="_blank">Arch/Engineering</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/art-media-design/search/med" target="_blank">Art/Media/Design</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/science-biotech/search/sci" target="_blank">Biotech/Science</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/business-mgmt/search/bus" target="_blank">Business/MGMT</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/customer-service/search/csr" target="_blank">Customer Service</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/education-teaching/search/edu" target="_blank">Education</a>
+          </li>
+        </ul>
+
+        <ul class="secondlistjobs">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/et-cetera/search/etc" target="_blank">Etc./Misc</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/food-beverage-hospitality/search/fbh" target="_blank">Food/Bev/Hosp</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/general-labor/search/lab" target="_blank">General Labor</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/government/search/gov" target="_blank">Government</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/human-resource/search/hum" target="_blank">Human Resources</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/legal-paralegal/search/lgl" target="_blank">Legal/Paralegal</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/manufacturing/search/mnu" target="_blank">Manufacturing</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/marketing-advertising-pr/search/mar" target="_blank">Marketing/PR/AD</a>
+          </li>
+        </ul>
+
+        <ul class="thirdlistjobs">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/healthcare/search/hea" target="_blank">Medical/Health</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/nonprofit/search/npo" target="_blank">Nonprofit Sector</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/real-estate/search/rej" target="_blank">Real Estate</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/retail-wholesale/search/ret" target="_blank">Retail/Wholesale</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/sales/search/sls" target="_blank">Sales/Biz Dev</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/salon-spa-fitness/search/spa" target="_blank">Salon/Spa/Fitness</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/security/search/sec" target="_blank">Security</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/skilled-trades-artisan/search/trd" target="_blank">Skilled Trade/Craft</a>
+          </li>
+        </ul>
+        <ul class="fourthlistjobs">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/software-qa-dba-etc/search/sof" target="_blank">Software/QA/DBA</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/systems-networking/search/sad" target="_blank">Systems/Network</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/technical-support/search/tch" target="_blank">Technical Support</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/transportation/search/trp" target="_blank">Transport</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/tv-film-video-radio/search/tfr" target="_blank">TV/Film/Video</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/web-html-info-design/search/web" target="_blank">Web/Info Design</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/writing-editing/search/wri" target="_blank">Writing/Editing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="gigs">
+    <div class="content">
+      <h2 class="gigsheader"><a href="https://losangeles.craigslist.org/d/gigs/search/ggg" target="_blank">Gigs!</a></h2>
+      <p class="gigstext">Looking to make a little extra cash? Come and take a look at various gigs and side opportunities!</p>
+
+      <div class="gigslink">
+        <ul class="firstlistgigs">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/computer-gigs/search/cpg" target="_blank">Computer</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/creative-gigs/search/crg" target="_blank">Creative</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/crew-gigs/search/cwg" target=_blank"">Crew</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/domestic-gigs/search/dmg" target="_blank">Domestic</a>
+          </li>
+        </ul>
+
+        <ul class="secondlistgigs">
+          <li>
+            <a href="https://losangeles.craigslist.org/d/event-gigs/search/evg" target="_blank">Event</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/labor-gigs/search/lbg" target="_blank">Labor</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/talent-gigs/search/tlg" target="_blank">Talent</a>
+          </li>
+          <li>
+            <a href="https://losangeles.craigslist.org/d/writing-gigs/search/wrg" target="_blank">Writing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="imageBoxgigs"></div>
+  </section>
+
+
+  <section id="resume">
+    <div class="imageBoxresume"></div>
+    <div class="contentresume">
+      <h1 class="resumeheader"><a href="https://losangeles.craigslist.org/d/resumes/search/rrr" target="_blank">Resumes!</a></h1>
+      <p class="resumetext">Click on the link above to browse various resumes and job offers!</p>
+    </div>
+  </section>
+
+
+  <footer id="footer">
+    <div class="footer-container">
+      <a href="https://www.craigslist.org/about/help/" target="_blank">Help</a>
+      <a href="https://www.craigslist.org/about/scams" target="_blank">Safety</a>
+      <a href="https://www.craigslist.org/about/privacy.policy" target="_blank">Privacy</a>
+      <a href="https://forums.craigslist.org/?forumID=8" target="_blank">Feedback</a>
+      <a href="https://www.craigslist.org/about/craigslist_is_hiring" target="_blank">Cljobs</a>
+      <a href="https://www.craigslist.org/about/terms.of.use.en-us" target="_blank">Terms</a>
+      <a href="https://www.craigslist.org/about/" target="_blank">About</a>
+      <a href="https://losangeles.craigslist.org/" target="_blank">Mobile</a>
+      <p class="copyright-padding">© 2020 Craigslist</p>
+    </div>
+  </footer>
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

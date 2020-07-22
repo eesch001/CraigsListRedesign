@@ -1,0 +1,1209 @@
+/* pictures
+credit: Image by <a href="https://pixabay.com/users/KevinSchmid-15711311/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5009490">Kevin Schmid</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5009490">Pixabay</a> */
+/* Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=804526">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=804526">Pixabay</a> */
+/* Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=945449">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=945449">Pixabay</a> */
+/* Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690084">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=690084">Pixabay</a> */
+/* Image by <a href="https://pixabay.com/users/Mediamodifier-1567646/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2140604">Mediamodifier</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2140604">Pixabay</a> */
+/* Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3354365">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3354365">Pixabay</a> */
+/* Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2496193">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2496193">Pixabay</a> */
+/* Image by <a href="https://pixabay.com/users/athree23-6195572/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4887880">athree23</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4887880">Pixabay</a> */
+/* Image by <a href="https://pixabay.com/users/olilynch-3815693/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3726428">Oli Lynch</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3726428">Pixabay</a> */
+body {
+  margin: 0;
+  padding: 0;
+  background: #262626;
+}
+
+/* topnavbar */
+#navbar {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  color: #81f5ff;
+  z-index: 2;
+  display: inline-block;
+}
+
+.topnav-container {
+  margin-top: 5px;
+}
+
+.topnav-container a {
+  color: #81f5ff;
+  font-family: "Permanent Marker";
+  margin: auto 15px;
+  font-size: 25px;
+  z-index: 20000;
+  display: inline-block;
+}
+
+.topnav-container a:hover {
+  color: #f3d1f4;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+/* laheadersection */
+.laimage {
+  width: 1518px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  z-index: -1;
+  overflow: hidden;
+  margin: 0;
+}
+
+.Craigheader {
+  font-family: "Permanent Marker";
+  position: absolute;
+  top: 5px;
+  left: 150px;
+  font-size: 175px;
+  z-index: 1;
+  display: inline-block;
+  margin: 0;
+  color: #81f5ff;
+}
+
+/* lowernav */
+nav {
+  z-index: 1;
+}
+
+.navtext {
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Permanent Marker";
+  transition: margin-left 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: #81f5ff;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #f3d1f4;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  transition: margin-left 0.5s;
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* leftsidebar */
+.sidebar {
+  overflow: hidden;
+  height: 63px;
+  position: relative;
+  bottom: 90px;
+  z-index: 3;
+  display: inline-block;
+}
+
+.sidebar a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sidebar ul {
+  margin: 8px 0 0 0;
+  list-style: none;
+}
+
+.sidebar a:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  z-index: 1000000000;
+}
+
+.side-nav a {
+  padding: 10px 0px 10px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #81f5ff;
+  display: block;
+  transition: 0.3s;
+  font-family: "Permanent Marker";
+  text-align: left;
+}
+
+.side-nav a:hover {
+  color: #f3d1f4;
+}
+
+.side-nav .btn-close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.nav-link {
+  transition: margin-left 0.5s;
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.search {
+  position: relative;
+  left: 12px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+  overflow: hidden;
+}
+
+@media(max-width:568px) {
+  .navbar-nav {
+    display: none
+  }
+}
+
+@media(min-width:568px) {
+  /*.open-slide{display:none}*/
+}
+
+/* rightsidebar */
+.sidebar2 {
+  overflow: hidden;
+  height: 63px;
+  position: relative;
+  bottom: 75px;
+  left: 1385px;
+  z-index: 3;
+  display: inline-block;
+}
+
+.sidebar2 a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sidebar2 ul {
+  margin: 8px 0 0 0;
+  list-style: none;
+  font-family: "Permanent Marker";
+  color: #1b6ca8;
+}
+
+.sidebar2 a:hover {
+  background-color: transparent;
+  color: #f3d1f4;
+}
+
+.side-nav2 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  z-index: 1000000000;
+}
+
+.side-nav2 a {
+  padding: 10px 0px 10px 0px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #81f5ff;
+  display: block;
+  white-space: nowrap;
+  transition: 0.3s;
+  position: relative;
+  left: -80px;
+  z-index: 100000000;
+  display: inline-block;
+}
+
+.side-nav2 a:hover {
+  color: #fff;
+}
+
+.side-nav2 .btn-close2 {
+  position: absolute;
+  bottom: 75px;
+  left: -30px;
+  font-size: 36px;
+  margin-left: 50px;
+  position: relative;
+  font-family: "Permanent Marker";
+
+
+
+}
+
+.nav-link {
+  transition: margin-right 0.5s;
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+#main2 {
+  transition: margin-right 0.5s;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/*Func*/
+.multi-level, .item ul, .navright input[type="checkbox"] {
+  display: none;
+}
+
+#menu:checked~.multi-level, .item input:checked~ul {
+  display: block;
+}
+
+/*Arrow*/
+.arrow {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+  float: left;
+  z-index: 10000000000;
+  margin: 17px 1em 0 2em;
+}
+
+.item  input+.arrow {
+  transform: rotate(-90deg);
+  transition: 0.1s;
+}
+
+.item  input:checked+.arrow {
+  transform: rotate(0deg);
+  transition: 0.1s;
+}
+
+.sub-item  input+.arrow {
+  transform: rotate(-90deg);
+  transition: 0.1s;
+}
+
+.sub-item  input:checked+.arrow {
+  transform: rotate(0deg);
+  transition: 0.1s;
+}
+
+
+/*Styles*/
+label:hover {
+  cursor: pointer;
+  color: #f3d1f4;
+
+}
+
+label {
+  width: 100%;
+  display: block;
+  z-index: 3;
+  position: relative;
+  color: #00a1ab;
+  font-weight: 100;
+  font-family: "Permanent Marker";
+  font-size: 25px;
+  z-index: 100000000;
+}
+
+
+
+.navright {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  border-bottom: 1px solid #CFD8DC;
+}
+
+#nav-icon {
+  font-size: 28px;
+  line-height: 50px;
+  padding-left: 1em;
+}
+
+.locationheader{
+  color: #81f5ff;
+  font-family: "Permanent Marker";
+  position: relative;
+  font-size: 35px;
+  bottom: 45px;
+  z-index: 1000000000;
+  text-align: center;
+  display: inline-block;
+}
+
+.navright ul, .navright li{
+  line-height: 50px;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #00a1ab;
+  font-weight: 100;
+  width: 100%;
+  font-family: "Permanent Marker";
+  font-size: 25px;
+  z-index: 100000000;
+  margin-left: 0;
+}
+
+
+
+
+
+.item ul {
+  padding: 0 0.25em;
+}
+
+.sub-item ul {
+  padding: 0 0.25em;
+}
+
+
+
+.navright li a {
+  line-height: 50px;
+  margin-left: 1em;
+  padding: 0 4em;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 100;
+  z-index: 10000000000;
+}
+
+.clformat {
+  padding: 0;
+}
+
+.sub-item {
+
+  padding: 0;
+  /* margin-right: 100px; */
+  list-style: none;
+  text-decoration: none;
+  color: #00a1ab;
+  font-weight: 100;
+  width: 100%;
+  font-family: "Permanent Marker";
+  font-size: 20px;
+
+
+}
+
+
+
+
+
+@media(max-width:568px) {
+  .navbar-nav {
+    display: none
+  }
+}
+
+@media(min-width:568px) {
+  /*.open-slide{display:none}*/
+}
+
+/* Community Section */
+#community {
+  position: absolute;
+  top: 600px;
+  /* transform: translate(-50%, -50%); -can mess with anchor tags!*/
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  position: relative;
+}
+
+.communitylink {
+  position: relative;
+  top: 60px;
+  z-index: 9999999;
+  font-size: 25px;
+  font-family: 'Shadows Into Light';
+}
+
+.imageBox {
+  position: relative;
+  width: 1715px;
+  height: 600px;
+  background: #f00;
+  border-left: 100px solid #000;
+  border-bottom: 600px solid transparent;
+  background: url(images/craigslistcommunity2.jpg);
+  background-position: -100px -50px;
+}
+
+.communityheader {
+  position: relative;
+  text-align: center;
+  font-size: 125px;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  z-index: 1;
+}
+
+.communityheader a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.communityheader a:hover {
+  color: #00918e;
+}
+
+.communitytext {
+  position: relative;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  font-size: 30px;
+}
+
+.firstlist {
+  position: relative;
+  right: 10px;
+  bottom: 25px;
+  list-style: none;
+}
+
+.secondlist {
+  position: relative;
+  top: -195px;
+  left: 125px;
+  list-style: none;
+}
+
+.thirdlist {
+  position: relative;
+  bottom: 360px;
+  left: 250px;
+  list-style: none;
+}
+
+.fourthlist {
+  position: relative;
+  bottom: 530px;
+  left: 450px;
+  list-style: none;
+}
+
+.communitylink a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.communitylink a:hover {
+  color: #00918e;
+}
+
+/* Services */
+#services {
+  position: absolute;
+  top: 1500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.imageBoxservices {
+  width: 1715px;
+  height: 600px;
+  background: #f00;
+  border-right: 100px solid #000;
+  border-bottom: 600px solid transparent;
+  background: url(images/craigslistservice2.jpg);
+  background-position: -300px -175px;
+}
+
+.contentservices {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  position: relative;
+}
+
+.servicesheader {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  font-size: 125px;
+  color: #6decb9;
+  font-family: 'Shadows Into Light';
+}
+
+.servicesheader a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.servicesheader a:hover {
+  color: #00918e;
+}
+
+.servicestext {
+  position: relative;
+  right: 15px;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  font-size: 30px;
+}
+
+.servicelink {
+  position: relative;
+  top: 60px;
+  z-index: 9999999;
+  font-size: 25px;
+  font-family: 'Shadows Into Light';
+}
+
+.servicelink a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.servicelink a:hover {
+  color: #00918e;
+}
+
+.firstlistservices {
+  position: relative;
+  right: 10px;
+  bottom: 60px;
+  list-style: none;
+}
+
+.secondlistservices {
+  position: relative;
+  top: -263px;
+  left: 125px;
+  list-style: none;
+}
+
+.thirdlistservices {
+  position: relative;
+  bottom: 465px;
+  left: 285px;
+  list-style: none;
+}
+
+.fourthlistservices {
+  position: relative;
+  bottom: 665px;
+  left: 450px;
+  list-style: none;
+}
+
+/* Discussion Forums */
+#discussionforums {
+  position: absolute;
+  top: 1800px;
+  /* transform: translate(-50%, -50%); -can mess with anchor tags!*/
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.discussionheader {
+  position: relative;
+  text-align: center;
+  font-size: 106px;
+  display: inline-block;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  z-index: 999999;
+}
+
+.discussionheader a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.discussionheader a:hover {
+  color: #00918e;
+}
+
+.discussiontext {
+  position: relative;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  font-size: 30px;
+}
+
+.imageBoxdiscussion {
+  position: relative;
+  width: 1715px;
+  height: 600px;
+  background: #f00;
+  border-left: 100px solid #000;
+  border-bottom: 600px solid transparent;
+  background: url(images/craigslistdiscussionforum.jpg);
+  background-position: -250px -50px;
+}
+
+.discussionlink {
+  position: relative;
+  top: 60px;
+  z-index: 9999999;
+  font-size: 25px;
+  font-family: 'Shadows Into Light';
+}
+
+.discussionlink a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.discussionlink a:hover {
+  color: #00918e;
+}
+
+.firstlistdiscussion {
+  position: relative;
+  right: 10px;
+  bottom: 60px;
+  list-style: none;
+}
+
+.secondlistdiscussion {
+  position: relative;
+  top: -414px;
+  left: 95px;
+  list-style: none;
+}
+
+.thirdlistdiscussion {
+  position: relative;
+  bottom: 765px;
+  left: 205px;
+  list-style: none;
+}
+
+.fourthlistdiscussion {
+  position: relative;
+  bottom: 1120px;
+  left: 325px;
+  list-style: none;
+}
+
+.fifthlistdiscussion {
+  position: relative;
+  bottom: 1475px;
+  left: 445px;
+  list-style: none;
+}
+
+.sixthlistdiscussion {
+  position: relative;
+  bottom: 1830px;
+  left: 550px;
+  list-style: none;
+}
+
+/* Housing */
+#housing {
+  position: absolute;
+  top: 2700px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.imageBoxhousing {
+  width: 1715px;
+  height: 600px;
+  background: #f00;
+  border-right: 100px solid #000;
+  border-bottom: 600px solid transparent;
+  background: url(images/craigslisthousing.jpg);
+  background-position: -100px -150px;
+}
+
+.contenthousing {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  position: relative;
+}
+
+.housingheader {
+  position: relative;
+  text-align: center;
+  font-size: 125px;
+  color: #6decb9;
+  font-family: 'Shadows Into Light';
+}
+
+.housingheader a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.housingheader a:hover {
+  color: #00918e;
+}
+
+.housingtext {
+  position: relative;
+  right: 15px;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  font-size: 30px;
+}
+
+.housinglink {
+  position: relative;
+  top: 60px;
+  z-index: 9999999;
+  font-size: 25px;
+  font-family: 'Shadows Into Light';
+}
+
+.housinglink a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.housinglink a:hover {
+  color: #00918e;
+}
+
+.firstlisthousing {
+  position: relative;
+  left: 65px;
+  bottom: 13px;
+  list-style: none;
+}
+
+.secondlisthousing {
+  position: relative;
+  top: -213px;
+  left: 355px;
+  list-style: none;
+}
+
+/* For Sale */
+#forsale {
+  position: absolute;
+  top: 3000px;
+  /* transform: translate(-50%, -50%); -can mess with anchor tags!*/
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.forsaleheader {
+  position: relative;
+  left: 150px;
+  text-align: center;
+  font-size: 106px;
+  display: inline-block;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  z-index: 999999;
+}
+
+.forsaleheader a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.forsaleheader a:hover {
+  color: #00918e;
+}
+
+.forsaletext {
+  position: relative;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  font-size: 30px;
+}
+
+.imageBoxforsale {
+  position: relative;
+  width: 1715px;
+  height: 600px;
+  background: #f00;
+  border-left: 100px solid #000;
+  border-bottom: 600px solid transparent;
+  background: url(images/craigslistforsale.jpg);
+  background-position: -150px -100px;
+}
+
+.forsalelink {
+  position: relative;
+  top: 60px;
+  z-index: 9999999;
+  font-size: 23px;
+  font-family: 'Shadows Into Light';
+}
+
+.forsalelink a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.forsalelink a:hover {
+  color: #00918e;
+}
+
+.firstlistforsale {
+  position: relative;
+  right: 30px;
+  bottom: 47px;
+  list-style: none;
+}
+
+.secondlistforsale {
+  position: relative;
+  top: -375px;
+  left: 100px;
+  list-style: none;
+}
+
+.thirdlistforsale {
+  position: relative;
+  bottom: 700px;
+  left: 230px;
+  list-style: none;
+}
+
+.fourthlistforsale {
+  position: relative;
+  bottom: 1027px;
+  left: 375px;
+  list-style: none;
+}
+
+.fifthlistforsale {
+  position: relative;
+  bottom: 1350px;
+  left: 525px;
+  list-style: none;
+}
+
+/* Jobs */
+#jobs {
+  position: absolute;
+  top: 3900px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.imageBoxjobs {
+  width: 1715px;
+  height: 600px;
+  background: #f00;
+  border-right: 100px solid #000;
+  border-bottom: 600px solid transparent;
+  background: url(images/craigslistjobs.jpg);
+  background-position: -450px -150px;
+}
+
+.contentjobs {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  position: relative;
+}
+
+.jobsheader {
+  position: relative;
+  text-align: center;
+  font-size: 125px;
+  color: #6decb9;
+  font-family: 'Shadows Into Light';
+}
+
+.jobsheader a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.jobsheader a:hover {
+  color: #00918e;
+}
+
+.jobstext {
+  position: relative;
+  right: 15px;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  font-size: 30px;
+}
+
+.jobslink {
+  position: relative;
+  top: 60px;
+  z-index: 9999999;
+  font-size: 23px;
+  font-family: 'Shadows Into Light';
+}
+
+.jobslink a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.jobslink a:hover {
+  color: #00918e;
+}
+
+.firstlistjobs {
+  position: relative;
+  left: -40px;
+  bottom: 11px;
+  list-style: none;
+}
+
+.secondlistjobs {
+  position: relative;
+  top: -303px;
+  left: 135px;
+  list-style: none;
+}
+
+.thirdlistjobs {
+  position: relative;
+  left: 305px;
+  bottom: 595px;
+  list-style: none;
+}
+
+.fourthlistjobs {
+  position: relative;
+  top: -885px;
+  left: 475px;
+  list-style: none;
+}
+
+.fifthlistjobs {
+  position: relative;
+  left: 65px;
+  bottom: 13px;
+  list-style: none;
+}
+
+/* Gigs */
+#gigs {
+  position: absolute;
+  top: 4200px;
+  /* transform: translate(-50%, -50%); -can mess with anchor tags!*/
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.gigsheader {
+  position: relative;
+  left: 200px;
+  text-align: center;
+  font-size: 126px;
+  display: inline-block;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  z-index: 999999;
+}
+
+.gigsheader a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.gigsheader a:hover {
+  color: #00918e;
+}
+
+.gigstext {
+  position: relative;
+  top: 20px;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  font-size: 40px;
+}
+
+.imageBoxgigs {
+  position: relative;
+  width: 1715px;
+  height: 600px;
+  background: #f00;
+  border-left: 100px solid #000;
+  border-bottom: 600px solid transparent;
+  background: url(images/craigslistgigs.jpg);
+  background-position: -450px -250px;
+}
+
+.gigslink {
+  position: relative;
+  top: 60px;
+  z-index: 9999999;
+  font-size: 35px;
+  font-family: 'Shadows Into Light';
+}
+
+.gigslink a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.gigslink a:hover {
+  color: #00918e;
+}
+
+.firstlistgigs {
+  position: relative;
+  left: 130px;
+  bottom: 40px;
+  list-style: none;
+}
+
+.secondlistgigs {
+  position: relative;
+  top: -265px;
+  left: 350px;
+  list-style: none;
+}
+
+/* Resume */
+#resume {
+  position: absolute;
+  top: 5100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.imageBoxresume {
+  width: 1715px;
+  height: 600px;
+  background: #f00;
+  border-right: 100px solid #000;
+  border-bottom: 600px solid transparent;
+  background: url(images/craigslistresume.jpg);
+  background-position: -450px -75px;
+}
+
+.resumetext {
+  position: relative;
+  top: 20px;
+  color: #81f5ff;
+  font-family: 'Shadows Into Light';
+  font-size: 70px;
+  text-align: center;
+}
+
+.contentresume {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  position: relative;
+}
+
+.resumeheader {
+  position: relative;
+  text-align: center;
+  font-size: 145px;
+  color: #6decb9;
+  font-family: 'Shadows Into Light';
+}
+
+.resumeheader a {
+  color: #6decb9;
+  text-decoration-line: none;
+}
+
+.resumeheader a:hover {
+  color: #00918e;
+}
+
+#footer {
+  background-color: #303960;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 5400px;
+  padding: 20px;
+  text-align: center;
+  color: #81f5ff;
+}
+
+.footer-container p {
+  margin-top: 5px;
+}
+
+.footer-container a {
+  color: #81f5ff;
+  font-family: "Permanent Marker";
+  margin: auto 15px;
+  font-size: 25px;
+}
+
+.footer-container a:hover {
+  color: #f3d1f4;
+  font-weight: bold;
+  text-decoration-line: none;
+}
